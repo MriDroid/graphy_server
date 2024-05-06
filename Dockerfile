@@ -1,4 +1,4 @@
-FROM zlib/zlib1g@1:1.2.13.dfsg-1
+FROM node:22.0-bookworm-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
